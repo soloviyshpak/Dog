@@ -37,4 +37,127 @@
   font-style: normal;
   src: local("Helvetica Neue Cyr"), url("../fonts/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.eot") format("eot");
   font-display: swap;
+}
+* {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn-filled {
+  display: block;
+  background: #e27b3a;
+  border-radius: 24px;
+  color: #fff;
+  padding: 12px 30px;
+  transition: all 0.3s;
+}
+.btn-filled:hover {
+  transform: scale(1.1);
+}
+
+.btn-empty {
+  display: block;
+  border: 1px solid #e27b3a;
+  padding: 11px 29px;
+  color: #e27b3a;
+  border-radius: 24px;
+  transition: all 0.3s;
+}
+.btn-empty:hover {
+  transform: scale(1.1);
+}
+
+.header {
+  padding-bottom: 137px;
+  position: relative;
+}
+.header::before {
+  content: "";
+  width: 1101px;
+  height: 785px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../img/header/puppy-background1.jpg") no-repeat;
+  z-index: -1;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 40px;
+}
+
+.header__logo {
+  transition: all 0.3s;
+}
+.header__logo:hover {
+  transform: scale(1.2);
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-item {
+  margin-right: 55px;
+}
+.header__nav-item:last-child {
+  margin: 0;
+}
+.header__nav-item a {
+  color: #170c04;
+  font-weight: 500;
+}
+.header__nav-item a:hover {
+  text-decoration: underline;
+}
+
+.header__widgets {
+  display: flex;
+}
+
+.header__widgets-item {
+  margin-right: 40px;
+}
+.header__widgets-item:last-child {
+  margin: 0;
+}
+.header__widgets-item:hover svg path,
+.header__widgets-item:hover line {
+  stroke: #e27b3a;
+}
+
+.header__content {
+  margin-top: 118px;
+  max-width: 613px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1.2;
+}
+
+.header__btn-box {
+  display: flex;
+  margin-top: 119px;
+}
+
+.header__btn-buy {
+  margin-right: 20px;
 }/*# sourceMappingURL=main.css.map */

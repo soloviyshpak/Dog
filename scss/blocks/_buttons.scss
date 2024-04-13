@@ -1,0 +1,25 @@
+.btn-filled {
+  display: block;
+  background: $accent-color2;
+  border-radius: 24px;
+  color: $accent-color3;
+  padding: 12px 30px;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.btn-empty {
+  display: block;
+  border: 1px solid $accent-color2;
+  padding: 11px 29px;
+  color: $accent-color2;
+  border-radius: 24px;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

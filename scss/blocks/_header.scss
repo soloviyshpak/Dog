@@ -1,0 +1,79 @@
+.header {
+  padding-bottom: 137px;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 1101px;
+    height: 785px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../img/header/puppy-background1.jpg') no-repeat;
+    z-index: -1;
+  }
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 40px;
+}
+.header__logo {
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.header__nav {
+}
+.header__nav-list {
+  display: flex;
+}
+.header__nav-item {
+  margin-right: 55px;
+
+  &:last-child {
+    margin: 0;
+  }
+  a {
+    color: $title-color;
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.header__widgets {
+  display: flex;
+}
+.header__widgets-item {
+  margin-right: 40px;
+  &:last-child {
+    margin: 0;
+  }
+  &:hover {
+    svg path,
+    line {
+      stroke: $accent-color2;
+    }
+  }
+}
+.header__content {
+  margin-top: 118px;
+  max-width: 613px;
+}
+.header__title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1.2;
+}
+.header__btn-box {
+  display: flex;
+  margin-top: 119px;
+}
+.header__btn-buy {
+  margin-right: 20px;
+}
+.header__btn-details {
+}
