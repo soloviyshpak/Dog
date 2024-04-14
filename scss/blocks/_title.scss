@@ -1,0 +1,15 @@
+.titlebox {
+  text-align: center;
+
+  h2 {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: $title-color;
+  }
+
+  p {
+    color: $title-color;
+    opacity: 0.6;
+  }
+}

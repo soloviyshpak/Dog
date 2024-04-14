@@ -23,3 +23,26 @@
     transform: scale(1.1);
   }
 }
+
+.btn-link {
+  display: block;
+  color: $accent-color2;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn-empty2 {
+  display: block;
+  border: 1px solid $accent-color4;
+  padding: 11px 29px;
+  color: $accent-color2;
+  border-radius: 4px;
+  transition: all 0.3s;
+  text-align: center;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

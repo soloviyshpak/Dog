@@ -80,6 +80,41 @@
   transform: scale(1.1);
 }
 
+.btn-link {
+  display: block;
+  color: #e27b3a;
+}
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.btn-empty2 {
+  display: block;
+  border: 1px solid #fbebe2;
+  padding: 11px 29px;
+  color: #e27b3a;
+  border-radius: 4px;
+  transition: all 0.3s;
+  text-align: center;
+}
+.btn-empty2:hover {
+  transform: scale(1.1);
+}
+
+.titlebox {
+  text-align: center;
+}
+.titlebox h2 {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #170c04;
+}
+.titlebox p {
+  color: #170c04;
+  opacity: 0.6;
+}
+
 .header {
   padding-bottom: 137px;
   position: relative;
@@ -160,4 +195,110 @@
 
 .header__btn-buy {
   margin-right: 20px;
+}
+
+.feed {
+  padding: 130px 0 125px;
+}
+
+.feed__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed__card {
+  padding: 40px 25px 18px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin-right: 30px;
+  position: relative;
+}
+.feed__card:last-child {
+  margin: 0;
+}
+.feed__card::before {
+  content: "";
+  width: 63px;
+  height: 54px;
+  position: absolute;
+  top: -31px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feed__card--one::before {
+  background: url("../img/meal/1.svg");
+}
+
+.feed__card--two::before {
+  height: 55px;
+  background: url("../img/meal/2.svg");
+}
+
+.feed__card--three::before {
+  background: url("../img/meal/3.svg");
+}
+
+.feed__card-title {
+  font-size: 25px;
+  color: #170c04;
+  line-height: 1.52;
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+.feed__card-text {
+  color: #170c04;
+  opacity: 0.6;
+  margin-top: 11px;
+}
+
+.feed__card-link {
+  margin-top: 24px;
+}
+
+.products__titlebox {
+  max-width: 505px;
+  margin: 0 auto;
+}
+.products__titlebox h2 {
+  margin-bottom: 18px;
+}
+
+.products__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  row-gap: 66px;
+}
+
+.product__card {
+  text-align: center;
+}
+.product__card .product__card-img {
+  border-radius: 10px;
+}
+
+.product__card--big .product__card-img {
+  border-radius: 20px;
+}
+
+.product__card-title {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #170c04;
+}
+
+.product__card-link {
+  margin-top: 9px;
+}
+
+.product__btn {
+  max-width: 185px;
+  margin: 46px auto 0;
 }/*# sourceMappingURL=main.css.map */
