@@ -115,6 +115,25 @@
   opacity: 0.6;
 }
 
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.4;
+  color: #170c04;
+}
+
+.tag {
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e27b3a;
+}
+
+.text {
+  color: #170c04;
+  opacity: 0.6;
+}
+
 .header {
   padding-bottom: 137px;
   position: relative;
@@ -301,4 +320,77 @@
 .product__btn {
   max-width: 185px;
   margin: 46px auto 0;
+}
+
+.care {
+  padding-top: 58px;
+}
+
+.care__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.care__tag {
+  margin-bottom: 4px;
+}
+
+.care__title {
+  margin-bottom: 18px;
+}
+
+.care__text {
+  margin-bottom: 40px;
+}
+
+.care__btnbox {
+  display: flex;
+}
+
+.care__btn {
+  margin-right: 30px;
+}
+.care__btn:last-child {
+  margin: 0;
+}
+
+.work {
+  padding-top: 86px;
+}
+
+.work__title {
+  text-align: center;
+}
+
+.work__inner {
+  margin: 36px 0 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work__card {
+  text-align: center;
+}
+
+.work__card-img {
+  margin-bottom: 51px;
+}
+
+.work__card-title {
+  margin-bottom: 22px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #170c04;
+}
+
+.work__card-text {
+  margin-bottom: 15px;
+}
+
+.work__btn {
+  max-width: 131px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

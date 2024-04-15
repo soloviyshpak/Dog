@@ -1,0 +1,32 @@
+.care {
+  padding-top: 58px;
+}
+
+.care__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.care__decor {
+}
+.care__content {
+}
+.care__tag {
+  margin-bottom: 4px;
+}
+.care__title {
+  margin-bottom: 18px;
+}
+.care__text {
+  margin-bottom: 40px;
+}
+.care__btnbox {
+  display: flex;
+}
+.care__btn {
+  margin-right: 30px;
+
+  &:last-child {
+    margin: 0;
+  }
+}

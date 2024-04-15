@@ -13,3 +13,19 @@
     opacity: 0.6;
   }
 }
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.4;
+  color: $title-color;
+}
+.tag {
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: $accent-color2;
+}
+.text {
+  color: $title-color;
+  opacity: 0.6;
+}

@@ -1,0 +1,32 @@
+.work {
+  padding-top: 86px;
+}
+.work__title {
+  text-align: center;
+}
+.work__inner {
+  margin: 36px 0 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work__card {
+  text-align: center;
+}
+.work__card-img {
+  margin-bottom: 51px;
+}
+.work__card-title {
+  margin-bottom: 22px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  color: $title-color;
+}
+.work__card-text {
+  margin-bottom: 15px;
+}
+.work__btn {
+  max-width: 131px;
+  margin: 0 auto;
+}
