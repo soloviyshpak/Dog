@@ -393,4 +393,37 @@
 .work__btn {
   max-width: 131px;
   margin: 0 auto;
+}
+
+.gallery {
+  padding-top: 120px;
+}
+
+.gallery__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 31px;
+       column-gap: 31px;
+}
+
+.gallery__titlebox {
+  margin-bottom: 26px;
+}
+.gallery__titlebox h2 {
+  margin-bottom: 12px;
+}
+
+.gallert__left-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.gallery__left-img {
+  border-radius: 5px;
+}
+
+.gallery__right-img {
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
