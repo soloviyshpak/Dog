@@ -22,6 +22,28 @@
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   background: $accent-color3;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 41px;
+    height: 37px;
+    opacity: 0.1;
+    position: absolute;
+    top: 28px;
+    left: 30px;
+    background: url('../img/testimonials/quote-top.svg');
+  }
+  &::after {
+    content: '';
+    width: 41px;
+    height: 37px;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 28px;
+    right: 30px;
+    background: url('../img/testimonials/quote-bottom.svg');
+  }
 }
 .testimonials__slide-avatar {
   margin-bottom: 20px;
